@@ -1,8 +1,8 @@
 steps:
 - name: 'gcr.io/cloud-builders/yarn'
   args: ['install']
-- name: 'gcr.io/cloud-builders/yarn'
-  args: ['server']
+#- name: 'gcr.io/cloud-builders/yarn'
+#  args: ['server']
 #  dir: 'functions/autodeploy'
 # - name: 'gcr.io/cloud-builders/npm'
 #   args: ['server']
