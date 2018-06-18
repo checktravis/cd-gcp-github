@@ -6,5 +6,5 @@
  */
 
 exports.helloHttp = function helloHttp (req, res) {
-  res.send(`Hello hhhi there ${req.body.name || 'World'}! :-P `);
+  res.send(`Hello hi there ${req.body.name || 'World'}! :-P `);
 };
