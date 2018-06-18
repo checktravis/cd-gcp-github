@@ -10,3 +10,5 @@ steps:
 #- name: 'gcr.io/cloud-builders/gcloud'
 #  args: ['beta', 'functions', 'deploy', '[YOUR_FUNCTION_NAME]', '[YOUR_FUNCTION_TRIGGER]']
 #  dir: 'functions/autodeploy'
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['beta', 'functions', 'deploy', 'app.yaml']
